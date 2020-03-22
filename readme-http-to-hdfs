@@ -1,0 +1,2 @@
+# http post 
+curl -X POST -H 'Content-Type: application/json; charset=UTF-8' -d '[{"headers" : {"eventheader1" : "event1", "eventheader2" : "event2" } , "body" : "This is the body2" }]' http://localhost:8989

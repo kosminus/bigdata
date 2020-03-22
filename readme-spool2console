@@ -1,0 +1,1 @@
+flume-ng agent --conf-file spool2console.properties  --name agent1
