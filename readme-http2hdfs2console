@@ -1,0 +1,5 @@
+# http post for event bucketing 
+curl -X POST -H 'Content-Type: application/json; charset=UTF-8' -d '[{"headers" : {"topic" : "topic1" } , "body" : "This is the body in topic1" }]' http://localhost:8989
+
+curl -X POST -H 'Content-Type: application/json; charset=UTF-8' -d '[{"headers" : {"topic" : "topic2" } , "body" : "This is the body in topic2" }]' http://localhost:8989
+
