@@ -1,0 +1,6 @@
+hbase: 
+create 't_files','name'
+scan 't_files'
+
+ps: check checkpoint directory to not be corrupted
+empty directory input
