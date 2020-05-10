@@ -125,3 +125,8 @@ ocSchema=StructType([StructField("Code",StringType()),nStructField("Occupation",
 df = spark.read.schema(ocSchema).csv('/user/maria_dev/kosmin/occupation-2018-census-csv.csv')
 
 ##parquet - default file format, binary saved
+import pandas as pd
+df = pd.read_csv('/home/cosmin/Downloads/joaca/usa-cers-dataset/USA_cars_datasets.csv')
+df.to_parquet('/home/cosmin/Downloads/joaca/usa-cers-dataset/output.parquet')
+cars_parquet=spark.read.parquet('/home/cosmin/Downloads/joaca/usa-cers-dataset/output.parquet')
+cars_parquet.printSchema()
