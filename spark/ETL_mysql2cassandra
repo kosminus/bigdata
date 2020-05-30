@@ -15,7 +15,7 @@ def read_mysql():
     dbname = "kosmin"
     jdbcPort = 3306
     username = "kosmin"
-    password = "kosminus"
+    password = ""
     
     jdbc_url = "jdbc:mysql://{0}:{1}/{2}?user={3}&password={4}&serverTimezone=UTC".format(hostname,jdbcPort, dbname,username,password)
     
