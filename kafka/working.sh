@@ -28,7 +28,7 @@ cd /usr/hdp/current/kafka-broker/bin
 ./kafka-console-consumer.sh --bootstrap-server sandbox-hdp.hortonworks.com:6667  --topic kosmin-log
 ./connect-standalone.sh ~/kafka/connect-standalone.properties ~/kafka/connect-file-source.properties ~/kafka/connect-file-sink.properties
 
-###server start
+###server start broker
 ./zookeeper-server-start.sh ../config/zookeeper.properties
 ./kafka-server-start.sh ../config/server.properties
 
