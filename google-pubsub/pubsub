@@ -1,0 +1,10 @@
+gcloud beta pubsub topics create kosmin
+gcloud beta pubsub topics publish kosmin "hello"
+gcloud beta pubsub subscriptions create --topic kosmin mysubscr
+gcloud beta pubsub subscriptions pull --auto-ack mysubscr // not receiving messages in order.
+gcloud beta pubsub topics publish kosmin "hello2"
+
+
+git clone   https://github.com/googleapis/python-pubsub/tree/master/samples
+git clone  https://github.com/GoogleCloudPlatform/python-docs-samples
+git clone https://github.com/GoogleCloudPlatform/training-data-analyst
