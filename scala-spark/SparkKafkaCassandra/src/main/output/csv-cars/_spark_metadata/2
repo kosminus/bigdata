@@ -1,0 +1,4 @@
+v1
+{"path":"file:///C:/Users/kosmin/IdeaProjects/scala/SparkKafkaCassandra/src/main/output/csv-cars/part-00000-b2fc83aa-4654-4670-8836-e91e2f10c486-c000.csv","size":0,"isDir":false,"modificationTime":1622042906949,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///C:/Users/kosmin/IdeaProjects/scala/SparkKafkaCassandra/src/main/output/csv-cars/part-00001-5d74b596-3681-49e3-a3f9-e4d95547b062-c000.csv","size":69,"isDir":false,"modificationTime":1622042907065,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///C:/Users/kosmin/IdeaProjects/scala/SparkKafkaCassandra/src/main/output/csv-cars/part-00002-3d41a95b-b3d7-44ff-9f90-6ae015d1560c-c000.csv","size":61,"isDir":false,"modificationTime":1622042907085,"blockReplication":1,"blockSize":33554432,"action":"add"}
